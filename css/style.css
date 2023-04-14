@@ -108,7 +108,8 @@ h1{
     border-radius: 25px;
     border: none;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
 
 span{
@@ -132,7 +133,6 @@ span{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .jumbotron-grey{
@@ -158,10 +158,12 @@ span{
 }
 
 .col-30{
+    padding-top: 30px;
     width: 30%;
 }
 
 .col-30 > h2{
+    line-height: 50px;
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
@@ -169,6 +171,26 @@ span{
 .col-30 > p{
     font-size: 1rem;
     padding-right: 40px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+/* row and col reverse */
+
+.row-reverse{
+    margin: -4px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-70-reverse{
+    width: 70%;
+    padding-left: 150px
+}
+
+.col-30-reverse{
+    padding-top: 30px;
+    width: 30%;
 }
 
 .col-30-reverse > h2{
@@ -178,27 +200,11 @@ span{
 
 .col-30-reverse > p{
     font-size: 1rem;
-    padding-right: 40px;
+    line-height: 25px;
+    font-weight: 500;
 }
 
 
-/* row and col reverse */
-
-.row-reverse{
-    margin: -4px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.col-70-reverse{
-    width: 70%;
-    padding-left: 150px
-}
-
-.col-30-reverse{
-    width: 30%;
-}
 /* call container */
 
 .row-calls{
@@ -222,7 +228,9 @@ span{
 }
 
 .col-calls > p{
-    padding: 0px 130px;
+    padding: 0px 120px;
+    line-height: 25px;
+    font-weight: 500;
 }
 
 #img-calls{
@@ -250,7 +258,8 @@ h5{
     border-radius: 25px;
     border: none;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* end  main */
@@ -333,6 +342,7 @@ li{
     color: #fff;
     font-weight: 600;
     padding: 10px 0px 10px 0px;
+    font-size: 0.8rem;
 }
 
 hr{
@@ -350,29 +360,18 @@ hr{
 }
 
 .col-footer{
-    width: calc(100% - 50px);
-    margin: 0px 50px;
-    height: 65px;
-    background-color: #7FFFD4;
+    width: 100%;
+    margin: 5px 0px 60px 0px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.content{
-    font-size: 1.2em;
-    background-color: #FFB6C1;
-}
-
-#logo{
-    height: 30px;
-    width: 60px;
-    text-align: center;
-}
-
-#bottone{
-    padding-top: 4px;
-    height: 35px;
-    width: 80px;
-    text-align: center;
+.btn-footer{
+    border: none;
+    background-color: #8EA1E1;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 10px;
+    border-radius: 26px;
 }
