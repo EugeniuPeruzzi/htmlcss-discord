@@ -144,7 +144,6 @@ span{
 }
 
 .wave-upsidedown{
-    opacity: 0.03;
     transform: scale(-1);
     margin-top: 4px;
 }
@@ -200,15 +199,58 @@ span{
 .col-30-reverse{
     width: 30%;
 }
-/* green container */
+/* call container */
 
-.col-green{
-    background-color: #228B22;
-    height: 700px;
-    width: calc(100% - 50px);
-    margin: 40px 50px;
+.row-calls{
+    margin: -4px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* end green container */
+
+.col-calls{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.col-calls > h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.col-calls > p{
+    padding: 0px 130px;
+}
+
+.star-img{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 40px;
+}
+
+h4{
+    padding-top: 30px;
+    font-size: 1.2rem;
+}
+
+.btn-calls{
+    background-color: #8EA1E1;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 50px 0px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+/* end  main */
 /*  first part of footer */
 .jumbotron-black{
     background-color: #23272A;
