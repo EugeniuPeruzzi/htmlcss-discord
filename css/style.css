@@ -95,7 +95,7 @@ h1{
     color: #fff;
 }
 
-p{
+.header-p{
     color: #fff;
     font-size: 1.2rem;
     margin-bottom: 30px;
@@ -127,50 +127,71 @@ span{
 /* end header */
 
 /* main part */
-/* blu and pink cols */
 .row{
-    margin-top: 40px;
+    margin: 100px 0px;
     width: 100%;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
 }
 
+.jumbotron-grey{
+    background-color: red;
+    background-image: url(../img/wave.svg);
+}
+
+
 .col-70{
-    background-color: #1E90FF;
-    height: 350px;
-    width: calc(70% - 50px);
-    margin-left: 50px;
+    width: 70%;
+}
+
+.col-70:only-child{
+    width: 50px;
+    padding-right: 50px;
 }
 
 .col-30{
-    background-color: #FFC0CB;
-    height: 350px;
-    width: calc(30% - 50px);
-    margin-right: 50px;
+    width: 30%;
 }
+
+.col-30 > h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.col-30 > p{
+    font-size: 1rem;
+    padding-right: 40px;
+}
+
+.col-30-reverse > h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.col-30-reverse > p{
+    font-size: 1rem;
+    padding-right: 40px;
+}
+
+
 /* row and col reverse */
 
-.jumbotron-grey{
-    margin-top: 40px;
-    background-color: #D3D3D3;
+.row-reverse{
+    margin: 200px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-70-reverse{
-    margin: 30px 0px;
-    background-color: #1E90FF;
-    height: 350px;
-    width: calc(70% - 50px);
-    margin-right: 50px;
+    width: 70%;
+    padding-left: 150px
 }
 
 .col-30-reverse{
-    margin: 30px 0px;
-    background-color: #FFC0CB;
-    height: 350px;
-    width: calc(30% - 50px);
-    margin-left: 50px;
+    width: 30%;
 }
-/*  end blu and pink cols */
 /* green container */
 
 .col-green{
