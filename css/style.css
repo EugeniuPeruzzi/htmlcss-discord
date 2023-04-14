@@ -32,13 +32,13 @@ body{
     align-items: center;
 }
 
-* .col-60{
+.col-60{
     width: 60%;
     text-align: center;
     padding-top: 25px;
 }
 
-.col-60 > *{
+.col-60 > a{
     text-align: center;
     margin: 0px 30px;
     color: #fff;
@@ -49,7 +49,7 @@ body{
     width: 20%;
 }
 
-.col-20>*{
+.col-20> *{
     padding-top: 25px;
 }
 
@@ -68,14 +68,14 @@ body{
 
 /* second part header */
 .row-second-header{
-    padding-bottom: 150px;
+    padding: 150px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .col-second-header{
-    margin: 160px 160px;
+    margin: 60px 160px;
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -225,6 +225,10 @@ span{
     padding: 0px 130px;
 }
 
+#img-calls{
+    width: 100%;
+}
+
 .star-img{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
@@ -233,7 +237,7 @@ span{
     height: 40px;
 }
 
-h4{
+h5{
     padding-top: 30px;
     font-size: 1.2rem;
 }
@@ -249,18 +253,55 @@ h4{
     font-weight: 400;
 }
 
-
 /* end  main */
+
 /*  first part of footer */
 .jumbotron-black{
     background-color: #23272A;
 }
 
 .row-black{
+    padding-top: 60px;
     width: 100%;
     display: flex;
     justify-content: center
 }
+
+h4{
+    color: #7289DA;
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 0.9rem;
+    color: #fff;
+}
+ 
+li{
+    margin: 15px 5px;
+}
+
+.ita-flag{
+    width: 25px;
+}
+
+#arrow{
+    font-size: 0.8rem;
+    margin: 0px 8px 0px 10px;
+}
+
+
+.ul-logos{
+    display: flex;
+    font-size: 1rem;
+}
+
+.fa-instagram, .fa-facebook, .fa-youtube{
+    margin-left: 10px;
+}
+
 
 .row-cyan{
     width: 100%;
@@ -269,31 +310,37 @@ h4{
 }
 
 .col-70-footer{
-    margin: 10px 0px 30px 0px;
-    background-color: #20B2AA;
-    height: 500px;
+    margin: 10px 0px 30px 50px;
     width: calc(70% - 50px);
-    margin-right: 50px;
     display: flex;
 }
 
 .col-30-footer{
     margin: 10px 0px 30px 0px;
-    background-color: #F08080;
-    height: 500px;
     width: calc(30% - 50px);
-    margin-left: 50px;
 }
 
 .col-25{
-    height: 100%;
     width: calc(100% / 4);
-    border: 2px white dashed;
 }
-/*  end first part of footer */
+
+.title-footer{
+    color: #7289DA;
+    font-weight: 600;
+}
+
+.footer-choices{
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 0px 10px 0px;
+}
+
 hr{
-    border: 2px solid #B4B3B3;
+    border: 1px solid #48557E;
 }
+
+/*  end first part of footer */
+
 /* star second part of footer */
 
 .row-footer{
