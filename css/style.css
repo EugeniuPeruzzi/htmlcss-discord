@@ -136,10 +136,18 @@ span{
 }
 
 .jumbotron-grey{
-    background-color: red;
-    background-image: url(../img/wave.svg);
+    background-color: #F6F6F6;
 }
 
+.wave{
+    opacity: 0.03;
+}
+
+.wave-upsidedown{
+    opacity: 0.03;
+    transform: scale(-1);
+    margin-top: 4px;
+}
 
 .col-70{
     width: 70%;
@@ -178,7 +186,7 @@ span{
 /* row and col reverse */
 
 .row-reverse{
-    margin: 200px 0px;
+    margin: -4px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
